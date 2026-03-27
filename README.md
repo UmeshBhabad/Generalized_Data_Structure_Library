@@ -1,105 +1,137 @@
-📚 Data Structures Library — CUI Based Interactive Application
+<h1 align="center">📚 Data Structures Library — CUI Based Interactive Application</h1>
 
-Data Structures Library CLI is a menu-driven C++ application designed to interactively demonstrate and test a custom-built, generalized data structures library.
+<p align="center">
+A modular, menu-driven C++ application designed to demonstrate and test a custom-built, STL-inspired data structures library.
+</p>
 
-The project is inspired by the concept of the Standard Template Library (STL), where reusable, generic data structures and their associated operations are encapsulated into a unified library for ease of use.
+<hr>
 
----
+<h2>📌 Project Overview</h2>
 
-📌 Project Overview
+<p>
+This project focuses on building a <b>custom data structures library from scratch</b>, inspired by the design principles of the <b>Standard Template Library (STL)</b>.
+It provides reusable, generic implementations of commonly used data structures along with a Command Line Interface (CUI) to interact with them.
+</p>
 
-This project focuses on building a custom data structures library from scratch, similar in spirit to the STL, and providing a CLI-based interface to interact with it.
+<p>
+The CLI acts as a testing layer, allowing users to dynamically perform operations like insertion, deletion, traversal, and analysis in real-time.
+</p>
 
-The library exposes various data structures along with their core operations (insert, delete, traversal, etc.), while the CLI application acts as a testing and demonstration layer.
+<ul>
+<li>Understanding internal working of data structures</li>
+<li>Designing reusable and generic libraries</li>
+<li>Maintaining separation between implementation and interface</li>
+</ul>
 
-It helps in understanding:
+<hr>
 
-    - Internal working of data structures
-    - Design of reusable libraries
-    - Separation between implementation and interface
+<h2>⚙️ Features</h2>
 
----
+<ul>
+<li>Custom-built data structures library inspired by STL</li>
+<li>Generic implementations using C++ templates</li>
+<li>Menu-driven Command Line Interface (CUI)</li>
+<li>Modular architecture for each data structure</li>
+<li>Dynamic memory management</li>
+<li>Real-time feedback after each operation</li>
+<li>Scalable design for future extensions</li>
+</ul>
 
-⚙️ Features
-    ✅ Custom-built data structures library inspired by STL design principles
-    ✅ Generic (template-based) implementations for reusability
-    ✅ Menu-driven Command Line Interface (CUI)
-    ✅ Modular design for each data structure
-    ✅ Supports multiple linear and non linear data structures:
-        Singly Linear Linked List
-        Singly Circular Linked List
-        Doubly Linear Linked List
-        Doubly Circular Linked List
-        Stack
-        Queue
-        Binary Search Tree
-        Graph(working on graphs)
-        Sorting algorithms
-        Searching algorithms
+<h3>Supported Data Structures</h3>
 
-✅ Encapsulated operations:
-    Insert
-    Delete
-    Display
-    Count
-✅ Dynamic memory management
-✅ Real-time feedback after each operation
-✅ Scalable architecture for adding new structures
+<ul>
+<li>Singly Linear Linked List</li>
+<li>Singly Circular Linked List</li>
+<li>Doubly Linear Linked List</li>
+<li>Doubly Circular Linked List</li>
+<li>Stack</li>
+<li>Queue</li>
+<li>Binary Search Tree</li>
+<li>Graph (in progress)</li>
+<li>Sorting Algorithms</li>
+<li>Searching Algorithms</li>
+</ul>
 
----
+<h3>Core Operations</h3>
 
-🛠️ Tech Stack
+<ul>
+<li>Insert</li>
+<li>Delete</li>
+<li>Display</li>
+<li>Count</li>
+</ul>
 
-Language: C++
-Concepts Used:
-    - Object-Oriented Programming (OOP)
-    - Templates (Generic Programming)
-    - Dynamic Memory Allocation
-    - Modular Design
-    - CLI Interaction Handling
+<hr>
 
----
+<h2>🛠️ Tech Stack</h2>
 
-📂 Project Structure
+<ul>
+<li><b>Language:</b> C++</li>
+</ul>
 
-    ds-library-cli/
-    │
-    ├── menu.cpp              # CLI application (menu-driven interface)
-    ├── library_ds.h          # Custom STL-like data structures library
-    ├── README.md             # Project documentation
+<h3>Concepts Used</h3>
 
----
+<ul>
+<li>Object-Oriented Programming (OOP)</li>
+<li>Templates (Generic Programming)</li>
+<li>Dynamic Memory Allocation</li>
+<li>Modular Design</li>
+<li>CLI Interaction Handling</li>
+</ul>
 
-🚀 Installation
+<hr>
 
-    1️⃣ Clone the Repository
-    git clone https://github.com/your-username/ds-library-cli.git
-    cd ds-library-cli
+<h2>📂 Project Structure</h2>
 
-    2️⃣ Compile the Program
-    g++ menu.cpp -o ds_app
+<pre>
+ds-library-cli/
+│
+├── menu.cpp              # CLI application (menu-driven interface)
+├── library_ds.h          # Custom STL-like data structures library
+├── README.md             # Project documentation
+</pre>
 
-    ▶️ Usage
-    Run the application:
-        ./ds_app
+<hr>
 
----
+<h2>🚀 Installation</h2>
 
-🖥️ How It Works
-    1. User selects a data structure from the main menu
-    2. A dedicated submenu is displayed
-    3. User performs operations such as:
-        Insert
-        Delete
-        Display
-        Count
-    4. The library executes the operation internally
-    5. CLI displays updated state and feedback
-    6. User can return to main menu anytime
+<h3>1️⃣ Clone the Repository</h3>
+<pre>
+git clone https://github.com/your-username/ds-library-cli.git
+cd ds-library-cli
+</pre>
 
----
+<h3>2️⃣ Compile the Program</h3>
+<pre>
+g++ menu.cpp -o ds_app
+</pre>
 
-🧪 Example Interaction
+<hr>
+
+<h2>▶️ Usage</h2>
+
+<pre>
+./ds_app
+</pre>
+
+<hr>
+
+<h2>🖥️ How It Works</h2>
+
+<ol>
+<li>User selects a data structure from the main menu</li>
+<li>A dedicated submenu is displayed</li>
+<li>User performs operations (Insert, Delete, Display, Count)</li>
+<li>The library executes operations internally</li>
+<li>CLI displays updated state and feedback</li>
+<li>User can return to main menu anytime</li>
+</ol>
+
+<hr>
+
+<h2>🧪 Example Interaction</h2>
+
+<pre>
 ========================= Singly Linear Linked List Menu =========================
 
 1. Insert at first position
@@ -117,41 +149,69 @@ Enter value: 10
 
 Element inserted successfully
 Current Node Count: 1
+</pre>
 
----
+<hr>
 
-🧠 Design Highlights
-    - STL-Inspired Library Design
-        Implemented reusable, generic data structures similar to how STL provides containers and operations.
-    - Separation of Concerns
-        -- Library → Data structure logic
-        -- CLI → User interaction
-    - Modular Architecture
-    - Each data structure has its own menu handler and implementation.
-    - Reusable Interaction Pattern
-        Display Menu → Input → Execute → Feedback → Repeat
+<h2>🧠 Design Highlights</h2>
 
----
+<ul>
+<li><b>STL-Inspired Library Design</b> – Generic reusable data structures</li>
+<li><b>Separation of Concerns</b> – Library logic vs CLI interaction</li>
+<li><b>Modular Architecture</b> – Each DS has independent menu handler</li>
+<li><b>Reusable Interaction Pattern</b> – Menu → Input → Execute → Feedback</li>
+</ul>
 
-🔮 Future Enhancements
-- Add non-linear data structures:
-    -- Graph
-    -- Heap
-- Iterator-like functionality (STL-style traversal)
-- Persistent storage (save/load structures)
-- Command-based CLI (advanced mode)
-- Robust input validation system
-- Performance benchmarking of operations
+<hr>
 
---- 
+<h2>🔮 Future Enhancements</h2>
 
-👨‍💻 Author
+<ul>
+<li>Graph implementation</li>
+<li>Heap data structure</li>
+<li>Iterator-style traversal (STL-like)</li>
+<li>Persistent storage (save/load)</li>
+<li>Command-based CLI</li>
+<li>Robust input validation system</li>
+<li>Performance benchmarking</li>
+</ul>
 
-Umesh Shivaji Bhabad
+<hr>
+
+<h2>👨‍💻 Author</h2>
+
+<p>
+<b>Umesh Shivaji Bhabad</b><br>
 📫 umeshbhabad9@gmail.com
+</p>
 
----
+<hr>
 
-⭐ Support
+<h2>⭐ Support</h2>
 
-If you find this project useful, consider giving it a ⭐ on GitHub!
+<p>If you find this project useful, consider giving it a ⭐ on GitHub!</p>
+
+<hr>
+
+<!-- ================= PROFILE MARKDOWN SECTION ================= -->
+
+<h1 align="center">Hi 👋, I'm Umesh Bhabad</h1>
+<h3 align="center">A passionate Software developer from India</h3>
+
+<p>
+🌱 I’m currently learning <b>Data Structures and algorithms</b><br>
+👨‍💻 All of my projects are available at 
+<a href="https://github.com/UmeshBhabad">GitHub Profile</a><br>
+📫 How to reach me <b>umeshbhabad9@gmail.com</b>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+
+<p align="left"> 
+<a href="https://www.w3schools.com/cpp/" target="_blank"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/> 
+</a> 
+<a href="https://git-scm.com/" target="_blank"> 
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40"/> 
+</a> 
+</p>
